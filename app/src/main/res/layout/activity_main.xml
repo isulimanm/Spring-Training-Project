@@ -16,6 +16,7 @@
         android:src="@drawable/logo" />
 
     <TextView
+        android:id="@+id/appName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="90dp"
@@ -26,7 +27,7 @@
         android:textStyle="bold"
         />
 
-    <Button
+   <!-- <Button
         android:id="@+id/continueB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -35,6 +36,6 @@
         android:text="Continue"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
-       />
+       />-->
 
 </LinearLayout>
