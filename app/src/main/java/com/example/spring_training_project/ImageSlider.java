@@ -52,7 +52,7 @@ public class ImageSlider extends AppCompatActivity {
                 viewPager.setCurrentItem(currentPage + 1);
             }
 
-            // Schedule the same runnable again after 3 seconds
+
             sliderHandler.postDelayed(this, 3000);
         }
     };
@@ -91,15 +91,15 @@ public class ImageSlider extends AppCompatActivity {
 
 
     private void startAutoSlide() {
-        // Remove any old callbacks, just to be safe
+
         sliderHandler.removeCallbacks(sliderRunnable);
 
-        // Start the runnable again after 3 seconds
+
         sliderHandler.postDelayed(sliderRunnable, 1000);
     }
 
     private void stopAutoSlide() {
-        // Remove the runnable so auto-sliding stops
+
         sliderHandler.removeCallbacks(sliderRunnable);
     }
 
